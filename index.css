@@ -1,0 +1,10 @@
+body {
+    background-color: #fff;
+    font-family: "Inter", serif;
+    font-weight: 200;
+}
+
+.maincontent {
+    text-align: center;
+    padding-top: 30vh;
+}
