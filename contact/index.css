@@ -2,10 +2,6 @@ body {
     font-family: "Inter", serif;
     font-weight: 200;
     margin: 0;
-    background-image: url(/img/star.png);
-    background-repeat: no-repeat;
-    background-position-x: 130%;
-    background-size: contain;
 }
 
 .temppage {
@@ -19,16 +15,6 @@ body {
     min-height: 6vh;
 }
 
-a > svg {
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 13px;
-    padding-bottom: 5px;
-    width: 25px;
-    height: 25px;
-}
-
 .link {
     float: left;
     color: black;
@@ -38,6 +24,16 @@ a > svg {
     font-size: 18px;
     line-height: 25px;
     border-radius: 4px;
+}
+
+a > svg {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 13px;
+    padding-bottom: 5px;
+    width: 25px;
+    height: 25px;
 }
 
 .logo {
@@ -55,6 +51,18 @@ a > svg {
 
 .header-right {
     float: right;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact {
+        text-align: center;
+        padding-top: 10vh;
+        font-size: 20px;
+    }
+    
+    .contactheader {
+        font-weight: 400;
+    }
 }
 
 .content {
@@ -75,21 +83,11 @@ a > svg {
     background: #fff;
 }
 
-@media only screen and (max-width: 600px) {
-    body {
-        background-image: url(/img/star.png);
-        background-repeat: no-repeat;
-        background-size: 250%;
-        background-position: center;
-    }
+.contact {
+    text-align: center;
+    padding-top: 10vh;
+}
 
-    .bigtext {
-        font-family: "Libre Baskerville", serif;
-        font-style: normal;
-        font-size: 50px;
-        text-align: center;
-        top: 40%;
-        background: #fff;
-        margin: 0;
-    }
+.contactheader {
+    font-weight: 400;
 }
