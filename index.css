@@ -38,6 +38,7 @@ a > svg {
     font-size: 18px;
     line-height: 25px;
     border-radius: 4px;
+    background: #fff;
 }
 
 .logo {
