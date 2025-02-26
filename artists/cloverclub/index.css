@@ -2,11 +2,16 @@ body {
     font-family: "Inter", serif;
     font-weight: 200;
     margin: 0;
-    background-image: url(/img/cloverdark.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: 0%;
 
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1000;
 }
 
 .header-right > a > svg {
