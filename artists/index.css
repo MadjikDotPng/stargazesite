@@ -93,6 +93,13 @@ body {
     background-position-y: 50%;
 }
 
+#kulse {
+    background-image: url("/img/kulsedog1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 50%;
+}
+
 .artist {
     width: 80vw;
     height: 180px;
