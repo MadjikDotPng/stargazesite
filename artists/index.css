@@ -80,10 +80,10 @@ body {
 }
 
 #clover {
-    background-image: url("/img/clover.jpg");
+    background-image: url("/img/fgort.webp");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: 85%;
+    background-position-y: 30%;
 }
 
 #holden {
