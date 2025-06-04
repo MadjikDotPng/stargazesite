@@ -12,7 +12,6 @@
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <meta name="color-scheme" content="light only" />
         <meta name="description" content="stargazecollective - artists" />
-        <!--- <meta property="og:site_name" content="stargazecollective" /> --->
         <meta property="og:title" content="stargazecollective" />
         <meta property="og:type" content="website" />
         <meta property="og:description" content="stargazecollective - artists" />
@@ -25,26 +24,48 @@
         <link rel="canonical" href="https://stargazecollective.org/" />
     </head>
 
-    <body>
-        <div class="header">
-            <a href="/" class="logoa"><img class="logo" src="/favicon.png"></a>
-            <div class="header-right">
-                <a href="/contact/" class="link">contact</a>
-                <a href="/artists/" class="link">artists</a>
-                <a href="https://www.instagram.com/stargaze.collective/"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="streamingicon" viewBox="0 0 24 24"><path fill="currentColor" d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3"></path></svg></a>
-
+    <body class="flex flex-col">
+        <div class="flex sm:flex-row flex-col items-center justify-between p-8">
+            <a href="/" class="flex gap-2 items-center">
+                <img class="size-15" src="/favicon.png" />
+                <span class="font-black text-2xl">stargazecollective</span>
+            </a>
+            <div class="flex gap-3.5 items-center">
+                <a href="/contact/" class="font-semibold text-lg leading-none text-[#000000] hover:text-[#0000008e] duration-150">contact</a>
+                <a href="/artists/" class="font-semibold text-lg leading-none text-[#000000] hover:text-[#0000008e] duration-150">artists</a>
+                <a href="https://www.instagram.com/stargaze.collective/" class="hover:text-[#0000008e] duration-150">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="size-8" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3"></path>
+                    </svg>
+                </a>
             </div>
         </div>
-        <div class="content">
-            <div class="artists">
-                <a href="/artists/cloverclub/" style="text-decoration: none;"><div class="artist" id="clover"><span class="aspan">cloverclub</span></div></a>
-
-                <a href="/artists/kulse/" style="text-decoration: none;"><div class="artist" id="kulse"><span class="aspan">kulse</span></div></a>
-
-                <a href="/artists/holdenparker/" style="text-decoration: none;"><div class="artist" id="holden"><span class="aspan">holdenparker</span></div></a>
+        <div class="flex flex-col h-full">
+            <div class="flex h-full justify-center items-center">
+                <div class="flex flex-col w-full min-w-2/3 max-w-2/4 rounded-2xl bg-black overflow-hidden">
+                    <a href="/artists/cloverclub/" class="relative group flex justify-center sm:h-[180px] h-[150px] sm:hover:h-[220px] hover:h-[200px] items-center bg-[url('/img/fgort.webp')] bg-position-[0_30%] bg-cover duration-150 cursor-pointer" id="clover">
+                        <div class="flex size-full bg-black opacity-50 group-hover:opacity-25 duration-150"></div>
+                        <span class="absolute top-1/2 left-1/2 -translate-1/2 font-semibold text-2xl text-[#ffffffcd] pointer-events-auto">cloverclub</span>
+                    </a>
+                    <a href="/artists/jenny/" class="relative group flex justify-center sm:h-[180px] h-[150px] sm:hover:h-[220px] hover:h-[200px] items-center bg-[url('/img/beginning.jpg')] bg-position-[0_54%] bg-cover duration-150 cursor-pointer" id="jenny">
+                        <div class="flex size-full bg-black opacity-50 group-hover:opacity-25 duration-150"></div>
+                        <span class="absolute top-1/2 left-1/2 -translate-1/2 font-semibold text-2xl text-[#ffffffcd] pointer-events-auto">jennyrejects</span>
+                    </a>
+                    <a href="/artists/kulse/" class="relative group flex justify-center sm:h-[180px] h-[150px] sm:hover:h-[220px] hover:h-[200px] items-center bg-[url('/img/kulsedog1.webp')] bg-position-[0_50%] bg-cover duration-150 cursor-pointer" id="kulse">
+                        <div class="flex size-full bg-black opacity-50 group-hover:opacity-25 duration-150"></div>
+                        <span class="absolute top-1/2 left-1/2 -translate-1/2 font-semibold text-2xl text-[#ffffffcd] pointer-events-auto">kulse</span>
+                    </a>
+                    <a href="/artists/srph1m/" class="relative group flex justify-center sm:h-[180px] h-[150px] sm:hover:h-[220px] hover:h-[200px] items-center bg-[url('/img/holdenpfp.jpg')] bg-position-[0_50%] bg-cover duration-150 cursor-pointer" id="holden">
+                        <div class="flex size-full bg-black opacity-50 group-hover:opacity-25 duration-150"></div>
+                        <span class="absolute top-1/2 left-1/2 -translate-1/2 font-semibold text-2xl text-[#ffffffcd] pointer-events-auto">srph1m</span>
+                    </a>
+                </div>
             </div>
-            <br><br><span class="int">interested in becoming an artist on this list?</span>
-            <br><span class="int"><a href="/contact/" style="color:#000;font-weight:300;">contact</a> us</span>
+            <div class="flex justify-center items-center h-max min-h-40 font-medium">
+                <span class="text-3xl">interested in becoming an artist on this list?</span>
+                <a href="/contact/" class="font-bold text-3xl hover:underline">contact us</a>
+            </div>
         </div>
+        <script src="../tailwind.min.js"></script>
     </body>
 </html>

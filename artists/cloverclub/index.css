@@ -1,8 +1,9 @@
-body {
-    font-family: "Inter", serif;
-    font-weight: 200;
-    margin: 0;
+@import "tailwindcss";
 
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
 }
 
 #myVideo {
@@ -11,141 +12,8 @@ body {
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
-    z-index: -1000;
-}
-
-.header-right > a > svg {
-    float: left;
-    color: #000;
-    text-align: center;
-    padding: 13px;
-    padding-bottom: 5px;
-    width: 25px;
-    height: 25px;
-}
-
-
-
-.temppage {
-    text-align: center;
-    padding-top: 30vh;
-}
-
-.header {
-    overflow: hidden;
-    padding: 20px 10px;
-    min-height: 6vh;
-}
-
-.link {
-    float: left;
-    color: black;
-    background: #fff;
-    text-align: center;
-    margin: 10px;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 25px;
-    padding: 2px;
-}
-
-.logo {
-    width: 50px;
-    margin-left: 10px;
-}
-
-.logoa {
-    padding: 0;
-}
-
-.header a:hover {
-    text-decoration: underline;
-}
-
-.header-right {
-    float: right;
-}
-
-
-.content {
-    max-height: 94vh;
-    min-height: 82%;
-}
-
-.bigtext {
-    font-family: "Libre Baskerville", serif;
-    font-style: normal;
-    font-size: 100px;
-    margin: 0;
-    margin-left: 0.5em;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    background: #fff;
-}
-
-.contact {
-    text-align: center;
-    padding-top: 10vh;
-}
-
-.contactheader {
-    font-weight: 400;
 }
 
 h1 {
     font-family: "Libre Baskerville", serif;
-    font-size: 50px;
-    margin-left: 20px;
-    padding-top: 10vh;
-    color: #fff;
-}
-
-.description {
-    margin-left: 20px;
-    width: 30vw;
-    color: #fff;
-}
-
-.links > a > svg {
-    width: 35px;
-    height: 35px;
-    color: #fff;
-    margin-right: 5px;
-}
-
-.links {
-    margin-left: 20px;
-}
-
-@media only screen and (max-width: 600px) {
-    h1 {
-        font-family: "Libre Baskerville", serif;
-        font-size: 50px;
-        text-align: center;
-        padding-top: 10vh;
-        color: #fff;
-        margin-left: 0;
-    }
-
-    .description {
-        margin-left: 0;
-        width: 100vw;
-        color: #fff;
-        text-align: center;
-        font-size: 20px;
-    }
-    
-    .links > a > svg {
-        width: 35px;
-        height: 35px;
-        color: #fff;
-        text-align: center;
-    }
-    
-    .links {
-        margin-left: 20px;
-        text-align: center;
-    }
 }

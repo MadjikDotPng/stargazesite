@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+}
+
+body {
+    background-image: url(../../img/dreams.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 60%;
+}
+
+h1 {
+    font-family: "Libre Baskerville", serif;
+}

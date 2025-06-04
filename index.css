@@ -1,13 +1,20 @@
+@import "tailwindcss";
+
+html, body {
+    height: 100%;
+}
+
+
 body {
     font-family: "Inter", serif;
     font-weight: 200;
     margin: 0;
     background-image: url(/img/star.png);
     background-repeat: no-repeat;
-    background-position-x: 130%;
+    background-position-x: 100%;
     background-size: contain;
 }
-
+/*
 .temppage {
     text-align: center;
     padding-top: 30vh;
@@ -61,21 +68,19 @@ a > svg {
 .content {
     max-height: 94vh;
     min-height: 82%;
-}
+} */
 
 .bigtext {
     font-family: "Libre Baskerville", serif;
     font-style: normal;
     font-size: 100px;
-    margin: 0;
-    margin-left: 0.5em;
-    position: absolute;
-    top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    background: #fff;
+    color: white;
+    background-color: black;
+    mix-blend-mode: difference;
 }
-
+/*
 @media only screen and (max-width: 600px) {
     body {
         background-image: url(/img/star.png);
@@ -93,4 +98,4 @@ a > svg {
         background: #fff;
         margin: 0;
     }
-}
+} */
