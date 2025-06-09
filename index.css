@@ -9,12 +9,12 @@ body {
     font-family: "Inter", serif;
     font-weight: 200;
     margin: 0;
-    background-image: url(/img/star%20dark.png);
+    background-image: url(/img/star.png);
     background-repeat: no-repeat;
     background-position-x: 50%;
-    background-position-y: 50%;
+    background-position-y: 55%;
     background-size: 66%;
-    animation: pulse infinite 5s;
+    /* animation: pulse infinite 5s; */
 }
 
 @keyframes pulse {
@@ -64,7 +64,7 @@ body {
         flex-direction: column;
         background-position-x: 92%;
         background-position-y: 50%;
-        animation: loadIn-base forwards 2s, pulse infinite 5s;
+        /* animation: loadIn-base forwards 2s, pulse infinite 5s; */
     }
 
     .bigtext {
